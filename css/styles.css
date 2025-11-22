@@ -213,7 +213,6 @@ overflow: hidden;
 }
 .benefits-incommon {
     display: flex;
-    padding: 120px 0;
     justify-content: center;
     background-color: #FFFFFF;
     gap: 24px;
@@ -504,3 +503,67 @@ overflow: hidden;
  .icon-footer-apps {
      fill: #f4f4fd;
  }
+.footer-three {
+    margin-left: 80px;
+}
+.footer-text-three {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: medium;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.form-footer {
+display: flex;
+gap: 24px;
+}
+.label-footer {
+gap: 24px;
+}
+.input-footer {
+    width: 264px;
+    height: 40px;
+     border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 4px;
+    padding-left: 16px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.04em;
+    line-height: 2;
+    font-size: 12px;
+    color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.input-footer::placeholder {
+     color: #FFFFFF;
+}
+.button-footer {
+     display: flex;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-style: medium;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+.button-footer:hover, .button-footer:focus {
+     background-color: #31d0aa;
+}
+.icon {
+    margin-left: 16px;
+     fill: #FFFFFF;
+}
