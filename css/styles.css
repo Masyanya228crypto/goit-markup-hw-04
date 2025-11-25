@@ -568,11 +568,11 @@ gap: 24px;
      fill: #FFFFFF;
 }
 .popup-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     opacity: 0;
     pointer-events: none;
